@@ -9,7 +9,7 @@ import { FlightInfoPayload } from '../models/interfaces';
 export class FlightService {
   private readonly API_URL = 'https://us-central1-crm-sdk.cloudfunctions.net/flightInfoChallenge';
   private readonly TOKEN = 'WW91IG11c3QgYmUgdGhlIGN1cmlvdXMgdHlwZS4gIEJyaW5nIHRoaXMgdXAgYXQgdGhlIGludGVydmlldyBmb3IgYm9udXMgcG9pbnRzICEh';
-  private readonly CANDIDATE_NAME = 'Yash Mane'; // Replace with your name
+  private readonly CANDIDATE_NAME = 'Yash Mane'; 
 
   constructor(private http: HttpClient) {}
 
